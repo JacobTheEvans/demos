@@ -1,0 +1,23 @@
+.form {
+  margin: 40px auto;
+  width: 450px;
+  display: flex;
+}
+
+.form input, .form button {
+  width: 25%;
+}
+
+.form input {
+  border: solid 1px lightgrey;
+  padding: 3px 5px;
+  font-size: 16px;
+}
+
+.form button {
+  border: solid 1px rebeccapurple;
+  background-color: rebeccapurple;
+  padding: 3px 5px;
+  font-size: 16px;
+  color: white;
+}

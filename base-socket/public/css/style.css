@@ -1,0 +1,71 @@
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.main-box {
+  border-radius: 6px;
+  padding: 30px;
+  margin-top: 10vh;
+  background-color: #33C3F0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.chat-box {
+  border-radius: 6px;
+  width: 100%;
+  height: 450px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.message-box {
+  display: inline-block;
+  width: 80%;
+  border-top-width: 20px;
+  border-right-width: 20px;
+  border-color: #33C3F0;
+  border-style: solid;
+}
+
+.button-box {
+  display: inline-block;
+  width: 10%;
+}
+
+.button {
+  border-color: white;
+  background-color: white;
+  font-size: 14px;
+}
+
+.chat {
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.chat-text {
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #D3D3D3;
+}
+
+.u-full-width {
+  width: 100%;
+}

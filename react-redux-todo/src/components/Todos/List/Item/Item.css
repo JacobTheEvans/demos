@@ -1,0 +1,50 @@
+.item {
+  position: relative;
+  min-height: 150px;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 35px 0px;
+}
+
+.item:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.item .btn-group {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item button {
+  background: none;
+  border: none;
+  font-size: 14px;
+}
+
+.item-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+
+.item-form input, .item-form button {
+  width: 25%;
+}
+
+.item-form input {
+  border: solid 1px lightgrey;
+  padding: 3px 5px;
+  font-size: 16px;
+}
+
+.item-form button {
+  border: solid 1px rebeccapurple;
+  background-color: rebeccapurple;
+  padding: 3px 5px;
+  font-size: 16px;
+  color: white;
+}
